@@ -6,16 +6,27 @@ div {
 }
 
 @keyframes defil {
-    
-
-  from {
+ from {
     margin-left: 0;
   }
-
   to {
-    margin-left: 100%;
+    margin-left: 140%;
   }
 }
+
+@-moz-keyframes defil {
+ from { margin-left: 0; }
+  to { margin-left: 140%; }
+}
+@-webkit-keyframes defil {
+ from { margin-left: 0; }
+  to { margin-left: 140%; }
+}
+@-o-keyframes defil {
+ from { margin-left: 0; }
+  to { margin-left: 140%; }
+}
+
 
 .lookatme {
     background-color: darkorange;
