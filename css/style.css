@@ -1,6 +1,6 @@
 
 div {
-  animation-duration: 8s;
+  animation-duration: 17s;
   animation-iteration-count: infinite;
   animation-name: defil;
 }
@@ -16,15 +16,15 @@ div {
 
 @-moz-keyframes defil {
  from { margin-left: 0; }
-  to { margin-left: 140%; }
+  to { margin-left: 110%; }
 }
 @-webkit-keyframes defil {
  from { margin-left: 0; }
-  to { margin-left: 140%; }
+  to { margin-left: 110%; }
 }
 @-o-keyframes defil {
  from { margin-left: 0; }
-  to { margin-left: 140%; }
+  to { margin-left: 110%; }
 }
 
 
