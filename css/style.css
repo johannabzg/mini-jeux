@@ -1,6 +1,6 @@
 
 div {
-  animation-duration: 4s;
+  animation-duration: 8s;
   animation-iteration-count: infinite;
   animation-name: defil;
 }
@@ -18,8 +18,8 @@ div {
 }
 
 .lookatme {
-    background-color: blueviolet;
-    height: 30px;
-    width: 20px;
+    background-color: darkorange;
+    height: 50px;
+    width: 90px;
 }
 
