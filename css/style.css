@@ -1,36 +1,55 @@
+body {
+    overflow: hidden;
+        background-color: rgba(191, 157, 114, 0.42);
+}
+
+.flex {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+input {
+    height: 30px;
+    width: 50px;
+    border-radius: 3px;
+    border: none;
+}
+
+.lookatme {
+    position: absolute;
+    top: 40%;
+    align-items: center;
+    background-color: rgba(132, 180, 241, 0.82);
+    height: 70px;
+    width: 130px;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.52) 0 2px 3px;
+}
 
 div {
-  animation-duration: 17s;
+  animation-duration: 10s;
   animation-iteration-count: infinite;
   animation-name: defil;
+ /* transition-timing-function:cubic-bezier(0,0,1,1);   */ 
 }
 
 @keyframes defil {
- from {
-    margin-left: 0;
-  }
-  to {
-    margin-left: 140%;
-  }
+ from { left: -15px;}
+  to {left: 100%;}
 }
 
 @-moz-keyframes defil {
- from { margin-left: 0; }
-  to { margin-left: 110%; }
+ from { left: -15px;}
+  to { left: 100%;}
 }
+
 @-webkit-keyframes defil {
- from { margin-left: 0; }
-  to { margin-left: 110%; }
+ from { left: -15px;}
+  to { left: 100%;}
 }
+
 @-o-keyframes defil {
- from { margin-left: 0; }
-  to { margin-left: 110%; }
+ from { left: -15px;}
+  to { left: 100%;}
 }
-
-
-.lookatme {
-    background-color: darkorange;
-    height: 50px;
-    width: 90px;
-}
-
